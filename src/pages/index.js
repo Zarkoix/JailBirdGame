@@ -23,7 +23,10 @@ const IndexPage = () => (
           Frame your avian accomplices for crimes in order to escape the penguin
           police in this deception filled party card game
         </p>
-        <a className="hero__storeLink" href="https://store.jailbirdgame.com">
+        <a
+          className="hero__storeLink"
+          href="https://store.jailbirdgame.com/jail-bird-card-game"
+        >
           Buy Now
         </a>
       </div>
@@ -48,7 +51,10 @@ const IndexPage = () => (
         <span className="orange">JailBird</span> is perfect for your next game
         night!
       </p>
-      <a className="hero__storeLink" href="https://store.jailbirdgame.com">
+      <a
+        className="hero__storeLink"
+        href="https://store.jailbirdgame.com/jail-bird-card-game"
+      >
         Buy Now
       </a>
     </div>

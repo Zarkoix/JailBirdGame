@@ -5,7 +5,7 @@ import "./footer.css"
 
 const links = [
   {
-    link: "https://store.jailbirdgame.com",
+    link: "https://store.jailbirdgame.com/jail-bird-card-game",
     desc: "Store",
     external: true,
   },
