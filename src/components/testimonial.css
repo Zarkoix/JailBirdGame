@@ -13,7 +13,7 @@
 .testimonial__quote {
   font-size: 22px;
   margin-bottom: 8px;
-  font-family: serif;
+  font-family: var(--sans-serif);
 }
 
 .testimonial__name {

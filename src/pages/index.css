@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=McLaren&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
 html {
-  font-family: "McLaren", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 :root {
   --brand-orange: #fe8903;
   --McLaren: "McLaren", sans-serif;
+  --sans-serif: "Montserrat", sans-serif;
 }
 
 .orange {
@@ -13,7 +15,7 @@ html {
 }
 
 p {
-  font-family: serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .hero__container {
