@@ -11,7 +11,7 @@ import Testimonial from "../components/testimonial"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO />
     <div className="hero__container">
       <HeroImage className="hero__image" />
       <div className="hero__cta">

@@ -3,6 +3,8 @@ module.exports = {
     title: `JailBird`,
     description: `Play the party card game everyone is squawking about!`,
     author: `JailBird Game`,
+    url: "https://jailbirdgame.com", // No trailing slash allowed!
+    image: "/img/OG_Image.png",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -18,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `JailBird`,
+        short_name: `JailBird`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
