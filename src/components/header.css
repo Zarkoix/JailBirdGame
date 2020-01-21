@@ -1,0 +1,55 @@
+.header__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: black;
+  padding: 16px;
+  min-height: 15vh;
+}
+
+.header__brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.header__wordMark {
+  color: black;
+  margin: 0;
+  font-family: var(--McLaren);
+}
+
+.header__logo {
+  margin-right: 16px;
+  width: 64px;
+}
+
+.header__links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header__link {
+  text-transform: capitalize;
+  text-decoration: none;
+  padding: 0 12px;
+  color: black;
+  font-family: var(--McLaren);
+  font-size: 22px;
+}
+
+.header__link:hover {
+  color: var(--brand-orange);
+}
+
+/****************/
+/**** MOBILE ****/
+/****************/
+
+@media (max-aspect-ratio: 2/3) {
+  .header__links {
+    display: none;
+  }
+}

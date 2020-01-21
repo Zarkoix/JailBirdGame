@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=McLaren&display=swap");
+html {
+  font-family: "McLaren", sans-serif;
+}
+
+:root {
+  --brand-orange: #fe8903;
+  --McLaren: "McLaren", sans-serif;
+}
+
+.orange {
+  color: var(--brand-orange);
+}
+
+p {
+  font-family: serif;
+}
+
+.hero__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  margin-bottom: 64px;
+}
+
+.hero__title {
+  font-size: 36px;
+  font-family: McLaren;
+  margin-bottom: 8px;
+}
+
+.hero__image {
+  width: 60%;
+  margin: 40px;
+}
+
+.hero__cta {
+  padding: 16px;
+}
+
+.hero__storeLink {
+  background-color: var(--brand-orange);
+  color: white;
+  border-radius: 8px;
+  border: solid transparent 2px;
+  text-decoration: none;
+  font-family: var(--McLaren);
+  padding: 8px 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.hero__storeLink:hover {
+  border: solid black 2px;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+
+  margin: 32px 0;
+}
+
+.finalcta__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 64px 0;
+}
+
+.finalcta__desc {
+  font-family: var(--McLaren);
+  font-size: 26px;
+  text-align: center;
+}
+
+/****************/
+/**** MOBILE ****/
+/****************/
+
+@media (max-aspect-ratio: 2/3) {
+  .hero__container {
+    flex-direction: column;
+  }
+
+  .hero__image {
+    margin: 20px;
+  }
+}

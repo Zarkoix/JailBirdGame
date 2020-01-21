@@ -1,0 +1,43 @@
+.testimonial__container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+
+  text-align: center;
+}
+
+.testimonial__stars {
+  margin-bottom: 2px;
+}
+
+.testimonial__quote {
+  font-size: 22px;
+  margin-bottom: 8px;
+  font-family: serif;
+}
+
+.testimonial__name {
+  font-size: 18px;
+}
+
+.testimonial__title {
+  opacity: 0.5;
+}
+
+/****************/
+/**** MOBILE ****/
+/****************/
+
+@media (max-aspect-ratio: 2/3) {
+  .testimonial__container {
+    width: 45%;
+  }
+
+  .testimonial__quote {
+    font-size: 14px;
+  }
+
+  .testimonial__name {
+    font-size: 12px;
+  }
+}
