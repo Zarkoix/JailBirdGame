@@ -7,6 +7,12 @@ module.exports = {
     image: "/img/OG_Image.png",
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: "776884219480024",
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
