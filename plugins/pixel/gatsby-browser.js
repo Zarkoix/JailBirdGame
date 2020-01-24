@@ -3,7 +3,9 @@ exports.onRouteUpdate = ({ location }) => {
   if (process.env.NODE_ENV !== `production`) {
     if (typeof window !== "undefined") {
       if (window.fbq != null) {
-        window.fbq("trackCustom", "SplashPageView", location.pathname)
+        window.fbq("trackCustom", "SplashPageView", {
+          path: location.pathname,
+        })
       }
     }
   }
