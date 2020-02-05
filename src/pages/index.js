@@ -35,7 +35,7 @@ const IndexPage = () => (
         quote="The art is spectacular, I love the 'eggsposed' card"
         name="Adam"
         title="College Student"
-        stars="★★★★☆"
+        stars="★★★★★"
       />
       <Testimonial
         quote="It's a pretty amazing game. Perfect for every game night"
