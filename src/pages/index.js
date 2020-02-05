@@ -15,8 +15,8 @@ const IndexPage = () => (
       <HeroImage className="hero__image" />
       <div className="hero__cta">
         <h1 className="hero__title">
-          Play the game everyone is <span className="orange">squawking</span>{" "}
-          about
+          Play the card game everyone is{" "}
+          <span className="orange">squawking</span> about
         </h1>
         <p className="hero__text">
           Frame your avian accomplices for crimes in order to escape the penguin
