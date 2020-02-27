@@ -3,8 +3,10 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import "./about.css"
+
 const AboutPage = () => (
-  <Layout>
+  <Layout title="about">
     <SEO title="About" />
     <p>
       JailBird is a startup founded in the Creating a Company series at the
