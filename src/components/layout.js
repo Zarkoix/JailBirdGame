@@ -33,11 +33,7 @@ const Layout = ({ children }) => {
           paddingTop: 0,
         }}
       >
-        <main
-          style={{
-            padding: `0px 1.0875rem 1.45rem`,
-          }}
-        >
+        <main>
           {children}
         </main>
         <Footer />

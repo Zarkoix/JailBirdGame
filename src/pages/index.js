@@ -1,7 +1,7 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import HeroImage from "../components/heroImage"
+import Hero from "../components/index/Hero"
 import RulesSection from "../components/Rules"
 import SEO from "../components/seo"
 
@@ -11,25 +11,7 @@ import Testimonial from "../components/testimonial"
 const IndexPage = () => (
   <Layout>
     <SEO />
-    <div className="hero__container">
-      <HeroImage className="hero__image" />
-      <div className="hero__cta">
-        <h1 className="hero__title">
-          Play the card game everyone is{" "}
-          <span className="orange">squawking</span> about
-        </h1>
-        <p className="hero__text">
-          Frame your avian accomplices for crimes in order to escape the penguin
-          police in this deception filled party card game
-        </p>
-        <a
-          className="hero__storeLink"
-          href="https://store.jailbirdgame.com/jail-bird-card-game"
-        >
-          Buy Now
-        </a>
-      </div>
-    </div>
+    <Hero />
     <div className="testimonials">
       <Testimonial
         quote="The art is spectacular, I love the 'eggsposed' card"
