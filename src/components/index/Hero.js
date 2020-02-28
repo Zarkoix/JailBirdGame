@@ -1,11 +1,14 @@
-import React from "react"
+import React, { useEffect } from "react"
 import HeroImage from "./heroImage"
 import HeroImageMobile from "./heroImageMobile"
 
 import "./hero.css"
 
 const Hero = () => {
-  const isMobile = window.matchMedia("(max-aspect-ratio: 2/3)").matches
+  let isMobile = true
+  useEffect(() => {
+    isMobile = window.matchMedia("(max-aspect-ratio: 2/3)").matches
+  }, [])
   console.log(isMobile)
   return (
     <div className="hero__container">
