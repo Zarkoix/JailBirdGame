@@ -1,15 +1,30 @@
-import React, { useEffect } from "react"
+import React, { useRef, useLayoutEffect, useState } from "react"
 import HeroImage from "./heroImage"
 import HeroImageMobile from "./heroImageMobile"
 
 import "./hero.css"
 
 const Hero = () => {
-  const isSSR = typeof window === "undefined"
-  if (isSSR) return null
-  let isMobile = window.matchMedia("(max-aspect-ratio: 2/3)").matches
+  const targetRef = useRef()
+  const [dimensions, setDimensions] = useState({ width: 0, height: 0 })
+
+  useLayoutEffect(() => {
+    if (targetRef.current) {
+      setDimensions({
+        width: targetRef.current.offsetWidth,
+        height: targetRef.current.offsetHeight,
+      })
+    }
+  }, [])
+
+  let isMobile = false
+  console.log(dimensions)
+  if (dimensions.width !== 0) {
+    isMobile = dimensions.width / dimensions.height <= 2 / 3
+  }
+
   return (
-    <div className="hero__container">
+    <div className="hero__container" ref={targetRef}>
       {!isMobile ? (
         <HeroImage className="hero__image" />
       ) : (
