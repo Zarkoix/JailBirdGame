@@ -5,11 +5,9 @@ import HeroImageMobile from "./heroImageMobile"
 import "./hero.css"
 
 const Hero = () => {
-  let isMobile = true
-  useEffect(() => {
-    isMobile = window.matchMedia("(max-aspect-ratio: 2/3)").matches
-  }, [])
-  console.log(isMobile)
+  const isSSR = typeof window === "undefined"
+  if (isSSR) return null
+  let isMobile = window.matchMedia("(max-aspect-ratio: 2/3)").matches
   return (
     <div className="hero__container">
       {!isMobile ? (
