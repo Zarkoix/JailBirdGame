@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 
-import "./banner.scss"
+import "./banner.css"
 
 const Banner = ({ title, description, link }) => {
   const [open, setOpen] = useState(true)
