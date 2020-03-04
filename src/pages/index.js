@@ -13,7 +13,7 @@ const IndexPage = () => (
   <Layout>
     <SEO />
     <Banner
-      title="JailBird Launch Game Night"
+      title="Launch Game Night"
       description="Come to our Game Night this Friday at the University of Washington, Seattle"
       link="https://www.facebook.com/events/1046652762384113/"
     />
