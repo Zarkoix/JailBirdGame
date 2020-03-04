@@ -6,8 +6,12 @@ import SEO from "../components/seo"
 import "./about.css"
 
 const AboutPage = () => (
-  <Layout title="about">
+  <Layout title="about" padding>
     <SEO title="About" />
+    <h1>About</h1>
+    <h2>Meet the Team</h2>
+    <p>We'll be adding bios real soon, check this spot soon!</p>
+    <h2>Our Story</h2>
     <p>
       JailBird is a startup founded in the Creating a Company series at the
       University of Washington.

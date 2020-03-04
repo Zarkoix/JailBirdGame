@@ -625,3 +625,7 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+.layout__mainPadding {
+  padding: 16px;
+}
