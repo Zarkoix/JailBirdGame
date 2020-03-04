@@ -13,6 +13,7 @@ module.exports = {
         pixelId: "776884219480024",
       },
     },
+    // `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

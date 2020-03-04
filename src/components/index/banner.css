@@ -1,9 +1,10 @@
 .banner {
   z-index: 100;
-  width: calc(100% - 64px);
+  width: calc(100% - 32px);
 
   padding: 16px;
-  margin: 32px;
+  margin: 16px;
+  margin-bottom: 32px;
   margin-top: 0;
   background: var(--brand-orange);
   color: white;

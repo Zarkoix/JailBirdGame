@@ -1,3 +1,8 @@
 .about__layout p {
   padding: 0 16px;
 }
+
+.about__layout h1,
+.about__layout h2 {
+  font-family: var(--McLaren);
+}

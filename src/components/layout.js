@@ -8,12 +8,13 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import classNames from "classnames"
 
 import Header from "./header"
 import Footer from "./footer"
 import "./layout.css"
 
-const Layout = ({ children, title }) => {
+const Layout = ({ children, title, padding }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -37,7 +38,14 @@ const Layout = ({ children, title }) => {
           paddingTop: 0,
         }}
       >
-        <main className={title + "__layout"}>{children}</main>
+        <main
+          className={classNames({
+            [title + "__layout"]: true,
+            layout__mainPadding: padding,
+          })}
+        >
+          {children}
+        </main>
         <Footer />
       </div>
     </>
