@@ -2,7 +2,7 @@ import React, { useState } from "react"
 
 import "./banner.css"
 
-const Banner = ({ title, description, link }) => {
+const Banner = ({ title, description, link, buttonText = "Learn More →" }) => {
   const [open, setOpen] = useState(true)
   if (!open) return null
   return (
@@ -10,7 +10,7 @@ const Banner = ({ title, description, link }) => {
       <div className="banner__content">
         <h2>{title}</h2>
         <p>{description}</p>
-        <div className="banner__learnMore">Learn More →</div>
+        <div className="banner__learnMore">{buttonText}</div>
       </div>
       <button
         className="banner__dismiss"
