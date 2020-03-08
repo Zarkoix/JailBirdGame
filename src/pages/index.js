@@ -12,12 +12,6 @@ import Testimonial from "../components/testimonial"
 const IndexPage = () => (
   <Layout>
     <SEO />
-    <Banner
-      title="10% OFF ALL ORDERS TODAY ONLY"
-      description="Special for our Open Game Night, get 10% off your copy of JailBird today! Buy one for your mom while you’re at it!"
-      link="https://store.jailbirdgame.com/jail-bird-card-game"
-      buttonText="Buy Now!"
-    />
     <Hero />
     <div className="testimonials">
       <Testimonial
