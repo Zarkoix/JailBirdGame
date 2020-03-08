@@ -4,7 +4,6 @@ import Layout from "../components/layout"
 import Hero from "../components/index/Hero"
 import RulesSection from "../components/Rules"
 import SEO from "../components/seo"
-import Banner from "../components/index/Banner"
 
 import "./index.css"
 import Testimonial from "../components/testimonial"
