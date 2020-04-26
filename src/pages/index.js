@@ -32,10 +32,7 @@ const IndexPage = () => (
         <span className="orange">JailBird</span> is perfect for your next game
         night!
       </p>
-      <a
-        className="hero__storeLink"
-        href="https://store.jailbirdgame.com/jail-bird-card-game"
-      >
+      <a className="hero__storeLink" href="https://store.jailbirdgame.com">
         Buy Now
       </a>
     </div>
