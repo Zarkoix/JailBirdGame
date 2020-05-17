@@ -39,10 +39,7 @@ const Hero = () => {
           Frame your avian accomplices for crimes in order to escape the penguin
           police in this deception filled party card game
         </p>
-        <a
-          className="hero__storeLink"
-          href="https://store.jailbirdgame.com/jail-bird-card-game"
-        >
+        <a className="hero__storeLink" href="https://store.jailbirdgame.com">
           Buy Now
         </a>
       </div>

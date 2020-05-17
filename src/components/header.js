@@ -34,10 +34,7 @@ const Header = () => {
       </Link>
 
       <div className="header__links">
-        <a
-          className="header__link"
-          href="https://store.jailbirdgame.com/jail-bird-card-game"
-        >
+        <a className="header__link" href="https://store.jailbirdgame.com">
           Store
         </a>
         <Link className="header__link" to="about">
