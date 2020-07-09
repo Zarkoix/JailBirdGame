@@ -18,8 +18,7 @@
 
 .hero__image {
   width: 100%;
-  bottom: 0;
-  height: 100%;
+  top: 0;
 }
 
 .hero__cta {
@@ -52,6 +51,7 @@
     /* flex-direction: column; */
     width: 60%;
     padding-left: 64px;
+    height: 400px;
   }
 
   .hero__image {
