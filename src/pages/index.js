@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import Hero from "../components/index/Hero"
 import RulesSection from "../components/Rules"
 import SEO from "../components/seo"
+import BuyButton from "../components/buybutton"
 
 import "./index.css"
 import Testimonial from "../components/testimonial"
@@ -32,9 +33,7 @@ const IndexPage = () => (
         <span className="orange">JailBird</span> is perfect for your next game
         night!
       </p>
-      <a className="hero__storeLink" href="https://store.jailbirdgame.com">
-        Buy Now
-      </a>
+      <BuyButton btnid="bottom" />
     </div>
   </Layout>
 )

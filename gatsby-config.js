@@ -36,6 +36,12 @@ module.exports = {
         icon: `src/images/logo.png`, // This path is relative to the root of the site.
       },
     },
+    {
+    resolve: "gatsby-plugin-load-script",
+      options: {
+        src: "https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js",
+      },
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

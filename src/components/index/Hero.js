@@ -3,6 +3,7 @@ import HeroImage from "./heroImage"
 import HeroImageMobile from "./heroImageMobile"
 
 import "./hero.css"
+import Buy from "../buybutton"
 
 const Hero = () => {
   const targetRef = useRef()
@@ -39,9 +40,7 @@ const Hero = () => {
           Frame your avian accomplices for crimes in order to escape the penguin
           police in this deception filled party card game
         </p>
-        <a className="hero__storeLink" href="https://store.jailbirdgame.com">
-          Buy Now
-        </a>
+        <Buy btnid="hero" />
       </div>
     </div>
   )
