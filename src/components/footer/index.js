@@ -4,11 +4,11 @@ import { Link } from "gatsby"
 import "./footer.css"
 
 const links = [
-  {
-    link: "https://store.jailbirdgame.com",
-    desc: "Store",
-    external: true,
-  },
+  // {
+  //   link: "https://store.jailbirdgame.com",
+  //   desc: "Store",
+  //   external: true,
+  // },
   {
     link: "/about",
     desc: "About",
