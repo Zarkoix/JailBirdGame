@@ -6,8 +6,9 @@
   justify-content: space-around;
 
   width: 100vw;
+  height: 36vw;
 
-  margin-bottom: 64px;
+  margin-bottom: 18px;
 }
 
 .hero__title {
