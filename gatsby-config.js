@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     title: `JailBird`,
@@ -37,11 +41,20 @@ module.exports = {
       },
     },
     {
-    resolve: "gatsby-plugin-load-script",
+      resolve: "gatsby-plugin-mailchimp",
       options: {
-        src: "https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js",
+        endpoint:
+          "https://jailbirdgame.us17.list-manage.com/subscribe/post?u=ad1f1361023c30168ff5c93be&amp;id=4216a066e3", // string; add your MC list endpoint here; see instructions below
+        timeout: 3500, // number; the amount of time, in milliseconds, that you want to allow mailchimp to respond to your request before timing out. defaults to 3500
       },
-    }
+    },
+    {
+      resolve: "gatsby-plugin-load-script",
+      options: {
+        src:
+          "https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js",
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

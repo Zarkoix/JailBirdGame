@@ -34,7 +34,10 @@ const Header = () => {
       </Link>
 
       <div className="header__links">
-        <Link className="header__link" to="about">
+        <Link className="header__link" to="/subscribe">
+          Kickstarter
+        </Link>
+        <Link className="header__link" to="/about">
           About
         </Link>
       </div>

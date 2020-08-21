@@ -1,5 +1,8 @@
 import React, { useEffect } from "react"
+import { Link } from "gatsby"
+import "./buybutton.css"
 
+/*
 function go(btnid) {
   var client = window.ShopifyBuy.buildClient({
     domain: "jailbird-game.myshopify.com",
@@ -142,9 +145,21 @@ function go(btnid) {
       },
     })
   })
-}
 
 export default ({ btnid }) => {
   useEffect(() => go(btnid), [btnid])
   return <div id={btnid}></div>
+}
+*/
+
+export default class redirectButton extends React.Component {
+  render() {
+    return (
+      <div>
+        <Link to="/subscribe/">
+          <button className="buttonContainer">Back us on Kickstarter</button>
+        </Link>
+      </div>
+    )
+  }
 }
