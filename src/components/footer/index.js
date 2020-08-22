@@ -19,6 +19,11 @@ const links = [
     desc: "Kickstarter",
     external: false,
   },
+  {
+    link: "/howToPlay",
+    desc: "How to Play",
+    external: false,
+  },
 ]
 
 const Footer = () => {
