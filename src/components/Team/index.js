@@ -11,33 +11,80 @@ import Nathan from "./nathan"
 import Tori from "./tori"
 import TeamPhoto from "./teamPhoto"
 
+/*
+<div className="contentsSquared">
+  <h2 className="profile__name profile__txt">Daniel Simic</h2>
+  <p className="profile__title profile__txt">CFO</p>
+  <p className="profile__desc profile__txt">What a chad</p>
+  <p className="profile__contact profile__txt">
+    daniel@jailbirdgames.com
+  </p>
+</div>
+*/
+
 const TeamSection = () => {
   return (
     <div className="teamSection">
       <div className="row">
-        <div className="contentsSquared leftText">
-          <Daniel className="teamImg danielImg rightImg" />
-          <p className="profile__title profile__txt">Daniel Simic</p>
-          <p className="profile__desc profile__txt">What a chad</p>
+        <div className="column">
+          <div className="card">
+            <Nathan className="teamImg nathanImg" />
+            <div className="contentsSquared">
+              <h2 className="profile__name profile__txt">Nathan Lee</h2>
+              <p className="profile__title profile__txt">CEO</p>
+            </div>
+          </div>
         </div>
-
-        <div className="contentsSquared leftText">
-          <Emma className="teamImg danielImg rightImg" />
-          <p className="profile__title profile__txt">Emma [Yingying] Deng</p>
-          <p className="profile__desc profile__txt">What a chad</p>
+        <div className="column">
+          <div className="card">
+            <Emma className="teamImg nathanImg" />
+            <div className="contentsSquared">
+              <h2 className="profile__name profile__txt long">
+                Emma [Yingying] Deng
+              </h2>
+              <p className="profile__title profile__txt">COO</p>
+            </div>
+          </div>
+        </div>
+        <div className="column">
+          <div className="card">
+            <Daniel className="teamImg danielImg" />
+            <div className="contentsSquared">
+              <h2 className="profile__name profile__txt">Daniel Simic</h2>
+              <p className="profile__title profile__txt">CFO</p>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div className="contentsSquared leftText">
-        <p className="ruleStep__title ruleStep__txt">
-          When the penguin police card is drawn, a{" "}
-          <span className="orange">police raid</span> begins
-        </p>
-        <p className="ruleStep__desc ruleStep__txt">
-          If you have the most evidence in hand at the end, you’re out
-        </p>
+      <div className="row">
+        <div className="column">
+          <div className="card">
+            <Tori className="teamImg toriImg" />
+            <div className="contentsSquared">
+              <h2 className="profile__name profile__txt">Tori Teng</h2>
+              <p className="profile__title profile__txt">CMO</p>
+            </div>
+          </div>
+        </div>
+        <div className="column">
+          <div className="card">
+            <Apala className="teamImg apalaImg" />
+            <div className="contentsSquared">
+              <h2 className="profile__name profile__txt">Apala Srivastava</h2>
+              <p className="profile__title profile__txt">VP of Growth</p>
+            </div>
+          </div>
+        </div>
+        <div className="column">
+          <div className="card">
+            <Anushka className="teamImg anushkaImg" />
+            <div className="contentsSquared">
+              <h2 className="profile__name profile__txt">Anushka Raheja</h2>
+              <p className="profile__title profile__txt">Director of Design</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <Tori className="ruleImg ruleImg3 rightImg" />
     </div>
   )
 }

@@ -7,7 +7,7 @@
   border: transparent 2px;
   border-radius: 4px;
 
-  background-color: #fe8903;
+  background-color: var(--brand-orange);
   color: white;
 }
 
