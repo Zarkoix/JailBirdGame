@@ -1,16 +1,9 @@
 import React from "react"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import MAILCHIMP from "../components/Mailchimp/mailchimp"
-
 import "./index.css"
 
 const SubscribePage = () => (
-  <Layout>
-    <SEO />
-    <MAILCHIMP />
-  </Layout>
+  <meta http-equiv="Refresh" content="0; url='http://eepurl.com/hbb8Lf'" />
 )
 
 export default SubscribePage

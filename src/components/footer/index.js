@@ -17,7 +17,7 @@ const links = [
   {
     link: "http://eepurl.com/hbb8Lf",
     desc: "Kickstarter",
-    external: false,
+    external: true,
   },
   /*
   {
@@ -34,7 +34,13 @@ const Footer = () => {
       <div className="footer__list">
         {links.map(l =>
           l.external ? (
-            <a key={l.link} href={l.link} className="footer__link">
+            <a
+              target="_blank"
+              key={l.link}
+              href={l.link}
+              rel="noreferrer"
+              className="footer__link"
+            >
               {l.desc}
             </a>
           ) : (
