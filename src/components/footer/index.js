@@ -15,15 +15,17 @@ const links = [
     external: false,
   },
   {
-    link: "/subscribe",
+    link: "http://eepurl.com/hbb8Lf",
     desc: "Kickstarter",
     external: false,
   },
+  /*
   {
     link: "/howToPlay",
     desc: "How to Play",
     external: false,
   },
+  */
 ]
 
 const Footer = () => {

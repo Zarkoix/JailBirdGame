@@ -34,12 +34,17 @@ const Header = () => {
       </Link>
 
       <div className="header__links">
-        <Link className="header__link" to="/howToPlay">
+        <Link className="header__link hidden" to="/howToPlay">
           How to Play
         </Link>
-        <Link className="header__link" to="/subscribe">
+        <a
+          href="http://eepurl.com/hbb8Lf"
+          className="header__link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Kickstarter
-        </Link>
+        </a>
         <Link className="header__link" to="/about">
           About
         </Link>

@@ -40,6 +40,10 @@
   font-size: 18px;
 }
 
+.hidden {
+  display: none;
+}
+
 .header__link:hover {
   color: var(--brand-orange);
 }

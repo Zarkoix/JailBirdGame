@@ -1,5 +1,5 @@
 import React /*, { useEffect }*/ from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 import "./buybutton.css"
 
 /*
@@ -156,9 +156,14 @@ export default class redirectButton extends React.Component {
   render() {
     return (
       <div>
-        <Link to="/subscribe/">
+        <a
+          href="http://eepurl.com/hbb8Lf"
+          className="header__link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button className="buttonContainer">Back us on Kickstarter</button>
-        </Link>
+        </a>
       </div>
     )
   }
