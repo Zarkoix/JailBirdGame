@@ -34,7 +34,7 @@ const Header = () => {
       </Link>
 
       <div className="header__links">
-        <Link className="header__link hidden" to="/howToPlay">
+        <Link className="header__link" to="/howToPlay">
           How to Play
         </Link>
         <a

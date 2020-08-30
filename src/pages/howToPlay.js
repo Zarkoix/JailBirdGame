@@ -16,8 +16,8 @@ const HowToPlayPage = () => (
     </h3>
     <div className="videoContainer">
       <Video
-        videoSrcURL="https://www.youtube.com/embed/kWrjYdD0Tg0"
-        videoTitle="How to Play Video"
+        videoSrcURL="https://www.youtube.com/embed/xsH-G_kDXzI"
+        videoTitle="JailBird: How to Play"
       />
     </div>
   </Layout>
