@@ -6,6 +6,10 @@
   min-height: 10vh;
 }
 
+.footer__list {
+  float: left;
+}
+
 .footer__link {
   color: white;
   font-family: var(--sans-serif);
@@ -14,9 +18,55 @@
   font-size: 24px;
 }
 
+.social__list {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+@media (min-width: 553px) {
+  .social__list {
+    float: right;
+    margin-top: 0;
+  }
+}
+
 .footer_copyright {
   color: white;
   font-family: var(--McLaren);
   font-size: 14px;
   margin-top: 16px;
+}
+
+.fa {
+  padding: 8px;
+  font-size: 16px;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 2px;
+  border-radius: 50%;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-youtube,
+.fa-linkedin,
+.fa-tiktok,
+.fa-instagram {
+  color: white;
+}
+
+.social {
+  margin-left: 10x;
+  margin-right: 10px;
+  font-size: 24px;
 }
