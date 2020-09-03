@@ -15,7 +15,7 @@ const links = [
     external: false,
   },
   {
-    link: "http://eepurl.com/hbb8Lf",
+    link: "https://www.kickstarter.com/projects/jailbird/jailbird",
     desc: "Kickstarter",
     external: true,
   },

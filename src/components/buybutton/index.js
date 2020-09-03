@@ -157,7 +157,7 @@ export default class redirectButton extends React.Component {
     return (
       <div>
         <a
-          href="http://eepurl.com/hbb8Lf"
+          href="https://www.kickstarter.com/projects/jailbird/jailbird"
           className="header__link"
           target="_blank"
           rel="noopener noreferrer"
