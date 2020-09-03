@@ -3,6 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import TEAM from "../components/Team/index"
+import Video from "../components/video"
 
 import "./about.css"
 
@@ -10,9 +11,13 @@ const AboutPage = () => (
   <Layout title="about" padding>
     <SEO title="About" />
     <h1>About</h1>
-    <h2>Meet the Team</h2>
-    <TEAM />
     <h2>Our Story</h2>
+    <div className="videoContainer">
+      <Video
+        videoSrcURL="https://www.youtube.com/embed/2K6SkBZquzs"
+        videoTitle="Our Story"
+      />
+    </div>
     <p>
       JailBird is a startup founded in the Creating a Company series at the
       University of Washington.
@@ -34,6 +39,8 @@ const AboutPage = () => (
       been sacrificed to the penguin patrol, you’ll come out wanting to try
       again so you can enact revenge against those who betrayed you.
     </p>
+    <h2>Meet the Team</h2>
+    <TEAM />
   </Layout>
 )
 
