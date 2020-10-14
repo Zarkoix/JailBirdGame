@@ -12,6 +12,8 @@ import classNames from "classnames"
 
 import Header from "./header"
 import Footer from "./footer"
+
+import Pixel from "./pixel"
 import "./layout.css"
 
 const Layout = ({ children, title, padding }) => {
