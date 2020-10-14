@@ -3,7 +3,7 @@ import React from "react"
 
 import { Helmet } from "react-helmet"
 
-const RedirectPage = ({ pathname }) => {
+const SurveyPage = ({ pathname }) => {
   return (
     <Helmet defer={false}>
       <script
@@ -27,7 +27,6 @@ const RedirectPage = ({ pathname }) => {
         `,
         }}
       />
-
       <noscript>{`
         <img
           height="1"
@@ -36,9 +35,9 @@ const RedirectPage = ({ pathname }) => {
           src="https://www.facebook.com/tr?id=822072591875643&ev=PageView&noscript=1"
         />`}</noscript>
       <script>
-        window.location.replace(https://hello776268.typeform.com/to/wlCIHUWY);
+        window.location.replace('https://hello776268.typeform.com/to/wlCIHUWY');
       </script>
     </Helmet>
   )
 }
-export default RedirectPage
+export default SurveyPage
