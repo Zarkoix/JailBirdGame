@@ -16,7 +16,8 @@ const SurveyPage = ({ pathname }) => {
             document,'script','https://connect.facebook.net/en_US/fbevents.js');
             fbq('init', '822072591875643');
             fbq('track', 'PageView');
-
+            
+            <!--
             // track purchase
             var queryString = window.location.search;
             console.log("queryString: " + queryString);
@@ -24,6 +25,7 @@ const SurveyPage = ({ pathname }) => {
             var tier = urlParams.get('tier');
             console.log("tier: " + tier);
             fbq('track', 'Purchase', { currency: "USD", value: tier });
+            -->
         `,
         }}
       />
@@ -34,9 +36,6 @@ const SurveyPage = ({ pathname }) => {
           style="display:none"
           src="https://www.facebook.com/tr?id=822072591875643&ev=PageView&noscript=1"
         />`}</noscript>
-      <script>
-        window.location.replace('https://hello776268.typeform.com/to/wlCIHUWY');
-      </script>
     </Helmet>
   )
 }
