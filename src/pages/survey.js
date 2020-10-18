@@ -6,7 +6,9 @@ import { Helmet } from "react-helmet"
 const SurveyPage = ({ pathname }) => {
   return (
     <Helmet defer={false}>
-      window.location.replace('https://hello776268.typeform.com/to/wlCIHUWY');
+      <script>
+        window.location.replace('https://hello776268.typeform.com/to/wlCIHUWY');
+      </script>
     </Helmet>
   )
 }
