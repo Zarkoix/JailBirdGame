@@ -3,13 +3,11 @@ import React from "react"
 
 import { Helmet } from "react-helmet"
 
-const RedirectPage = ({ pathname }) => {
-  return (
-    <Helmet defer={false}>
-      <script>
-        window.location.replace('https://www.kickstarter.com/projects/jailbird/jailbird/');
-      </script>
-    </Helmet>
-  )
-}
+const RedirectPage = () => (
+  <meta
+    http-equiv="Refresh"
+    content="0; url='https://www.kickstarter.com/projects/jailbird/jailbird/'"
+  />
+)
+
 export default RedirectPage

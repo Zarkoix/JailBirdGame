@@ -7,7 +7,6 @@
 // You can delete this file if you're not using it
 
 exports.onRouteUpdate = state => {
-  console.log("alert")
   !(function(f, b, e, v, n, t, s) {
     if (f.fbq) return
     n = f.fbq = function() {
@@ -31,4 +30,6 @@ exports.onRouteUpdate = state => {
   )
   fbq("init", "822072591875643")
   fbq("track", "ViewContent")
+
+  console.log("alert")
 }

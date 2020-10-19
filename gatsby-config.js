@@ -42,12 +42,6 @@ module.exports = {
         cookieDomain: "jailbirdgame.com",
       },
     },
-    {
-      resolve: `pixel`,
-      options: {
-        pixelId: "822072591875643",
-      },
-    },
     // `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
