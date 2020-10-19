@@ -30,5 +30,5 @@ exports.onRouteUpdate = state => {
     "https://connect.facebook.net/en_US/fbevents.js"
   )
   fbq("init", "822072591875643")
-  fbq("track", "PageView")
+  fbq("track", "ViewContent")
 }
