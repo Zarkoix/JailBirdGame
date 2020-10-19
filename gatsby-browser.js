@@ -31,5 +31,5 @@ exports.onRouteUpdate = state => {
   fbq("init", "822072591875643")
   fbq("track", "ViewContent")
 
-  console.log("alert")
+  console.log("Tracking movement")
 }
