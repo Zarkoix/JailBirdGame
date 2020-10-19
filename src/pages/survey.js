@@ -7,9 +7,10 @@ const SurveyPage = ({ pathname }) => {
   return (
     <Helmet defer={false}>
       <script>
-        window.location.replace('https://hello776268.typeform.com/to/wlCIHUWY');
+        window.location.replace('https://www.kickstarter.com/projects/jailbird/jailbird/');
       </script>
     </Helmet>
   )
 }
+
 export default SurveyPage
