@@ -6,7 +6,7 @@ import { Helmet } from "react-helmet"
 const RedirectPage = () => (
   <meta
     http-equiv="Refresh"
-    content="0; url='https://www.kickstarter.com/projects/jailbird/jailbird/'"
+    content="0; url='https://www.kickstarter.com/projects/jailbird/jailbird?ref=8gwgqo'"
   />
 )
 
